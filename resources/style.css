@@ -127,7 +127,6 @@ header a {
   width: 100%;
   padding: 5%;
   text-transform: uppercase;
-  text-emphasis-style: double-circle;
   font-weight: bold;
   opacity: 1;
 }
@@ -257,9 +256,67 @@ header a {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
-  height: 200px;
+  margin-bottom: 15px;
 }
 
+.travel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 760px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 175px;
+  height: 175px;
+  background-color: black;
+  border: 1px solid black;
+  margin: 1px;
+  padding: 0;
+}
+
+
+.post p {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 100%;
+  font-weight: bold;
+  opacity: 1;
+}
+
+#australia {
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/australia.jpg");
+}
+
+#japan {
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/japan.jpg");
+}
+
+#pr {
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/pr.jpg");
+}
+
+#neworleans {
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/neworleans.jpg");
+}
 
 /* Footer */
 footer {
