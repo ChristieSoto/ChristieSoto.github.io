@@ -271,18 +271,15 @@ header a {
 }
 
 .post {
+  width: 175px;
+  height: 175px;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 175px;
-  height: 175px;
-  background-color: black;
-  border: 1px solid black;
-  margin: 1px;
-  padding: 0;
+  margin: 2px;
 }
-
 
 .post p {
   text-decoration: none;
