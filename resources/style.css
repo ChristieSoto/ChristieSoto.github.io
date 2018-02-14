@@ -297,10 +297,10 @@ header a {
   background-image: url("images/australia.jpg");
 }
 
-#fixedjapan {
+#japan {
   background-size: cover;
   background-position: center;
-  background-image: url("images/jp.jpg");
+  background-image: url("images/cafejapan.jpg");
 }
 
 #pr {
@@ -314,6 +314,14 @@ header a {
   background-position: center;
   background-image: url("images/neworleans.jpg");
 }
+
+#miami {
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/miamicuban.jpg");
+}
+
+
 
 /* Footer */
 footer {
