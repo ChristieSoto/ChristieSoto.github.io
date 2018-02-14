@@ -297,7 +297,7 @@ header a {
   background-image: url("images/australia.jpg");
 }
 
-#japan {
+#fixedjapan {
   background-size: cover;
   background-position: center;
   background-image: url("images/jp.jpg");
