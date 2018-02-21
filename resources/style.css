@@ -68,7 +68,7 @@ header {
   width: auto;
 }
 
-.logo span {
+.nav span {
   color: black;
 }
 
@@ -76,7 +76,7 @@ header nav {
   padding-right: 30px;
 }
 
-header a {
+nav a {
   color: black;
   background-color: pink;
   border: 1px solid black;
