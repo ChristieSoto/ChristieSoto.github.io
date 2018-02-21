@@ -65,10 +65,10 @@ nav a {
   flex-direction: row;
 }
 
-.work img {
-  width: 150px;
+.post img {
+  width: 300px;
   height: auto;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 /*opening */
@@ -92,29 +92,6 @@ nav a {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  border: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 20px;
-}
-
-.box a {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 5%;
-  text-transform: uppercase;
-  font-weight: bold;
-  opacity: 1;
 }
 
 #coffeed {
@@ -145,13 +122,16 @@ nav a {
   width: 20%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.sidebar img {
+  width: 180px;
+  border: 1px solid white;
 }
 
 .box {
@@ -201,19 +181,30 @@ nav a {
   border-right: 1px solid black;
   background-color: white;
   width: 80%;
-  padding-top: 80px;
+  padding-top: 10px;
+  text-align: center;
+  overflow: auto;
 }
 
 /* post */
 .post {
-  border: 1px solid black;
+  border-top: 1px solid black;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  height: 300px;
-  background-color: pink;
+  width: 75%;
+  height: auto;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 10px;
 }
 
+.photos img{
+  height: 150px;
+  width: auto;
+  border: 1px solid black;
+}
 
 /* Footer */
 footer {
