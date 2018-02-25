@@ -258,6 +258,10 @@ nav a:hover {
   height: 100%;
 }
 
+.photo img:hover {
+  opacity: .5;
+}
+
 .photo {
   width: auto;
   height:150px;
