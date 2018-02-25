@@ -85,6 +85,12 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
 /*opening */
 .opening {
   text-align: center;
@@ -129,6 +135,11 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
   opacity: 1;
+}
+
+.box a:hover {
+  color: gold;
+  background-color: white;
 }
 
 #coffeelink {
@@ -183,11 +194,19 @@ nav a {
   text-align: center;
 }
 
+.square:hover {
+  opacity: .5;
+}
+
 .square a {
   color: white;
   text-decoration: none;
   width: 100%;
   opacity: .75;
+}
+
+.square a:hover {
+  color: gold;
 }
 
 #siteone {
@@ -281,14 +300,20 @@ nav a {
   margin: 2px;
 }
 
-.post p {
+.post a {
   text-decoration: none;
   text-align: center;
   color: white;
   background-color: black;
   width: 100%;
+  padding: 5%;
   font-weight: bold;
   opacity: 1;
+}
+
+.post a:hover {
+  color: gold;
+  background-color: white;
 }
 
 #australia {
@@ -313,6 +338,12 @@ nav a {
   background-size: cover;
   background-position: center;
   background-image: url("images/neworleans.jpg");
+}
+
+#mexico {
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/mexele.jpg");
 }
 
 

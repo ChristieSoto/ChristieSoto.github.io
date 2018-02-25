@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 
@@ -55,6 +55,12 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
 /* main */
 
 .work {
@@ -77,14 +83,6 @@ nav a {
   background-color: black;
   padding-top: 60px;
   width: 100%;
-}
-
-.opening img {
-  width: 150px;
-  border: 2px solid black;
-  border-radius: 50%;
-  margin: 5px;
-  opacity: 1;
 }
 
 .opencont {
@@ -142,7 +140,7 @@ nav a {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 5px;
+  margin: 10px;
 }
 
 .box a {
@@ -155,6 +153,11 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
   opacity: 1;
+}
+
+.box a:hover {
+  color: gold;
+  background-color: white;
 }
 
 #coffeelink {
@@ -204,6 +207,27 @@ nav a {
   height: 150px;
   width: auto;
   border: 1px solid black;
+}
+
+.post a {
+  text-decoration: none;
+}
+
+.post a:hover {
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+}
+
+.post p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Footer */
