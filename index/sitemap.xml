@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.coffeecatscoding.com/</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://www.coffeecatscoding.com/index.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://www.coffeecatscoding.com/blog/blog.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://www.coffeecatscoding.com/blog/coffee/mexicocity.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://www.coffeecatscoding.com/blog/coffee/coffee.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://www.coffeecatscoding.com/blog/coffee/xochimilco.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://www.coffeecatscoding.com/blog/coding/codingjourney.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+</urlset>
+<!--<guid value="" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

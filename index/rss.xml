@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<rss version="2.0">
+  <channel>
+    <title>Coffee Cats Coding
+Coffee Cats Coding </title>
+    <link>http://www.coffeecatscoding.com/</link>
+    <description />
+    <item>
+      <guid>http://www.coffeecatscoding.com/</guid>
+      <title>Coffee, Cats, and Coding</title>
+      <link>http://www.coffeecatscoding.com/</link>
+      <description>This is a personal blog about coffee, cats, and coding.
+    Coding HTML and CSS for web design/development as a hobby. A cat named Dexter. Coffee while travel blogging.</description>
+    </item>
+    <item>
+      <guid>http://www.coffeecatscoding.com/index.html</guid>
+      <title>Coffee, Cats, and Coding</title>
+      <link>http://www.coffeecatscoding.com/index.html</link>
+      <description>This is a personal blog about coffee, cats, and coding.
+    Coding HTML and CSS for web design/development as a hobby. A cat named Dexter. Coffee while travel blogging.</description>
+    </item>
+    <item>
+      <guid>http://www.coffeecatscoding.com/blog/blog.html</guid>
+      <title>Coffee, Cats, and Coding: Blog</title>
+      <link>http://www.coffeecatscoding.com/blog/blog.html</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://www.coffeecatscoding.com/blog/coffee/mexicocity.html</guid>
+      <title>Coffee, Cats, and Coding: Blog</title>
+      <link>http://www.coffeecatscoding.com/blog/coffee/mexicocity.html</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://www.coffeecatscoding.com/blog/coffee/coffee.html</guid>
+      <title>Coffee, Cats, and Coding: Blog</title>
+      <link>http://www.coffeecatscoding.com/blog/coffee/coffee.html</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://www.coffeecatscoding.com/blog/coffee/xochimilco.html</guid>
+      <title>Coffee, Cats, and Coding: Blog</title>
+      <link>http://www.coffeecatscoding.com/blog/coffee/xochimilco.html</link>
+      <description />
+    </item>
+    <item>
+      <guid>http://www.coffeecatscoding.com/blog/coding/codingjourney.html</guid>
+      <title>Coffee, Cats, and Coding: Blog</title>
+      <link>http://www.coffeecatscoding.com/blog/coding/codingjourney.html</link>
+      <description />
+    </item>
+  </channel>
+</rss>
+<!--<guid value="" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
