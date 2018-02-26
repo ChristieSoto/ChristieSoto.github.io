@@ -46,4 +46,4 @@ nav a:hover{background-color:black;color:white;font-weight:bold;}
 #pr{background-size:cover;background-position:center;background-image:url("images/pr.jpg");}
 #neworleans{background-size:cover;background-position:center;background-image:url("images/neworleans.jpg");}
 #mexico{background-size:cover;background-position:center;background-image:url("images/mexele.jpg");}
-footer{text-align:left;background-color:black;height:50px;display:flex;align-items:center;color:white;}
+footer{text-align:left;background-color:black;height:50px;align-items:center;color:white;}
