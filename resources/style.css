@@ -1,363 +1,49 @@
-/* general */
-body {
-  margin: 0;
-  font-size: 16px;
-  background-color: white;
-}
-
-h1 {
-  font-size: 10px;
-}
-
-h2 {
-  font-size: 30px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100%;
-  opacity: .5;
-}
-
-h3 {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  font-size: 20px;
-}
-
-h4 {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  font-size: 15px;
-}
-
-.sectionwords {
-  width: 525px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sectionwords p {
-  text-align: left;
-}
-
-/* header */
-header {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 55px;
-  border-bottom: 3px solid black;
-  background-color: white;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  opacity: .75;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
-}
-
-.logo img {
-  margin-right: 12px;
-  height: 30px;
-  width: auto;
-}
-
-.nav span {
-  color: black;
-}
-
-header nav {
-  padding-right: 30px;
-}
-
-nav a {
-  color: black;
-  background-color: pink;
-  border: 1px solid black;
-  padding: 3px;
-  margin: 3px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: black;
-  color: white;
-  font-weight: bold;
-}
-
-/*opening */
-.opening {
-  text-align: center;
-  background-color: black;
-  padding-top: 60px;
-  width: 100%;
-}
-
-.opening img {
-  width: 150px;
-  border: 2px solid black;
-  border-radius: 50%;
-  margin: 5px;
-  opacity: 1;
-}
-
-.opencont {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  border: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 20px;
-}
-
-.box a {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 5%;
-  text-transform: uppercase;
-  font-weight: bold;
-  opacity: 1;
-}
-
-.box a:hover {
-  color: gold;
-  background-color: white;
-}
-
-#coffeelink {
-  background-image: url("images/coffeelink.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#catlink {
-  background-position: center;
-  background-size: cover;
-  background-image: url("images/dextercar.png");
-}
-
-#winklink {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/dragon.jpg");
-}
-
-/*Code Section */
-.codesection {
-  text-align: center;
-  background-color: white;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-}
-
-.webpages {
-  display: flex;
-  flex-wrap: wrap;
-  width: 760px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.square {
-  width: 200px;
-  height:150px;
-  background-color: black;
-  border: 1px solid black;
-  margin: 0;
-  padding: 0;
-  font-family: monospace;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
-
-.square:hover {
-  opacity: .5;
-}
-
-.square a {
-  color: white;
-  text-decoration: none;
-  width: 100%;
-  opacity: .75;
-}
-
-.square a:hover {
-  color: gold;
-}
-
-#siteone {
-  background-image: url("images/teacozy.png");
-  background-position: center;
-  background-size: cover;
-}
-
-#sitetwo {
-  background-image: url("images/broadway.png");
-  background-position: center;
-  background-size: cover;
-}
-
-#sitethree {
-  background-image: url("images/excursion.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.closing {
-  text-align: center;
-}
-
-/* Cats Section */
-.catsection {
-  text-align: center;
-  background-color: white;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  font-weight: lighter;
-}
-
-.catphotos {
-  display: flex;
-  flex-wrap: wrap;
-  width: 760px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.photo img {
-  width: auto;
-  height: 100%;
-}
-
-.photo img:hover {
-  opacity: .5;
-}
-
-.photo {
-  width: auto;
-  height:150px;
-  background-color: black;
-  border: 1px solid black;
-  margin: 1px;
-  padding: 0;
-}
-
-/* Coffee Section */
-.coffeesection {
-  text-align: center;
-  background-color: white;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  margin-bottom: 15px;
-}
-
-.travel {
-  display: flex;
-  flex-wrap: wrap;
-  width: 760px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.post {
-  width: 175px;
-  height: 175px;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 2px;
-}
-
-.post a {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 5%;
-  font-weight: bold;
-  opacity: 1;
-}
-
-.post a:hover {
-  color: gold;
-  background-color: white;
-}
-
-#australia {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/australia.jpg");
-}
-
-#japan {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/cafejapan.jpg");
-}
-
-#pr {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/pr.jpg");
-}
-
-#neworleans {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/neworleans.jpg");
-}
-
-#mexico {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/mexele.jpg");
-}
-
-
-
-/* Footer */
-footer {
-  text-align: left;
-  background-color: black;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  color: white;
-}
+body{margin:0;font-size:16px;background-color:white;}
+h1{font-size:10px;}
+h2{font-size:30px;margin-top:5px;margin-bottom:5px;width:100%;opacity:.5;}
+h3{margin-top:2px;margin-bottom:2px;font-size:20px;}
+h4{margin-top:2px;margin-bottom:2px;font-size:15px;}
+.sectionwords{width:525px;margin-left:auto;margin-right:auto;}
+.sectionwords p{text-align:left;}
+header{display:flex;align-items:center;position:fixed;z-index:1;width:100%;height:55px;border-bottom:3px solid black;background-color:white;font-family:Verdana;font-size:14px;font-weight:bold;opacity:.75;}
+.logo{display:flex;align-items:center;flex-grow:1;padding-left:30px;}
+.logo img{margin-right:12px;height:30px;width:auto;}
+.nav span{color:black;}
+header nav{padding-right:30px;}
+nav a{color:black;background-color:pink;border:1px solid black;padding:3px;margin:3px;text-decoration:none;}
+nav a:hover{background-color:black;color:white;font-weight:bold;}
+.opening{text-align:center;background-color:black;padding-top:60px;width:100%;}
+.opening img{width:150px;border:2px solid black;border-radius:50%;margin:5px;opacity:1;}
+.opencont{display:flex;justify-content:center;align-items:center;align-content:center;}
+.box{width:200px;height:200px;border:1px solid white;display:flex;justify-content:center;align-items:center;align-content:center;margin:20px;}
+.box a{text-decoration:none;text-align:center;color:white;background-color:black;width:100%;padding:5%;text-transform:uppercase;font-weight:bold;opacity:1;}
+.box a:hover{color:gold;background-color:white;}
+#coffeelink{background-image:url("images/coffeelink.jpg");background-size:cover;background-position:center;}
+#catlink{background-position:center;background-size:cover;background-image:url("images/dextercar.png");}
+#winklink{background-size:cover;background-position:center;background-image:url("images/dragon.jpg");}
+.codesection{text-align:center;background-color:white;width:75%;margin-left:auto;margin-right:auto;padding:5px;}
+.webpages{display:flex;flex-wrap:wrap;width:760px;justify-content:center;align-items:center;align-content:center;margin-left:auto;margin-right:auto;}
+.square{width:200px;height:150px;background-color:black;border:1px solid black;margin:0;padding:0;font-family:monospace;font-weight:bold;color:white;text-align:center;}
+.square:hover{opacity:.5;}
+.square a{color:white;text-decoration:none;width:100%;opacity:.75;}
+.square a:hover{color:gold;}
+#siteone{background-image:url("images/teacozy.png");background-position:center;background-size:cover;}
+#sitetwo{background-image:url("images/broadway.png");background-position:center;background-size:cover;}
+#sitethree{background-image:url("images/excursion.png");background-position:center;background-size:cover;}
+.closing{text-align:center;}
+.catsection{text-align:center;background-color:white;width:75%;margin-left:auto;margin-right:auto;padding:5px;font-weight:lighter;}
+.catphotos{display:flex;flex-wrap:wrap;width:760px;justify-content:center;align-items:center;align-content:center;margin-left:auto;margin-right:auto;}
+.photo img{width:auto;height:100%;}
+.photo img:hover{opacity:.5;}
+.photo{width:auto;height:150px;background-color:black;border:1px solid black;margin:1px;padding:0;}
+.coffeesection{text-align:center;background-color:white;width:75%;margin-left:auto;margin-right:auto;padding:5px;margin-bottom:15px;}
+.travel{display:flex;flex-wrap:wrap;width:760px;justify-content:center;align-items:center;align-content:center;margin-left:auto;margin-right:auto;}
+.post{width:175px;height:175px;border:1px solid black;display:flex;justify-content:center;align-items:center;align-content:center;margin:2px;}
+.post a{text-decoration:none;text-align:center;color:white;background-color:black;width:100%;padding:5%;font-weight:bold;opacity:1;}
+.post a:hover{color:gold;background-color:white;}
+#australia{background-size:cover;background-position:center;background-image:url("images/australia.jpg");}
+#japan{background-size:cover;background-position:center;background-image:url("images/cafejapan.jpg");}
+#pr{background-size:cover;background-position:center;background-image:url("images/pr.jpg");}
+#neworleans{background-size:cover;background-position:center;background-image:url("images/neworleans.jpg");}
+#mexico{background-size:cover;background-position:center;background-image:url("images/mexele.jpg");}
+footer{text-align:left;background-color:black;height:50px;display:flex;align-items:center;color:white;}
