@@ -1,247 +1,33 @@
-/* General */
-body {
-  margin: 0;
-  background-color: white;
-}
-
-h1 {
-  font-size: 10px;
-}
-
-img:hover {
-  opacity: .5;
-}
-
-
-/* header */
-header {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 55px;
-  border-bottom: 3px solid black;
-  background-color: white;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  opacity: .75;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
-}
-
-.logo img {
-  margin-right: 12px;
-  height: 30px;
-  width: auto;
-}
-
-.logo span {
-  color: black;
-}
-
-header nav {
-  padding-right: 30px;
-}
-
-nav a {
-  color: black;
-  background-color: pink;
-  border: 1px solid black;
-  padding: 3px;
-  margin: 3px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: white;
-  background-color: black;
-  font-weight: bold;
-}
-
-/* main */
-
-.work {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-}
-
-.post img {
-  width: 300px;
-  height: auto;
-  border: 1px solid black;
-}
-
-/*opening */
-.opening {
-  text-align: center;
-  background-color: black;
-  padding-top: 60px;
-  width: 100%;
-}
-
-.opencont {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-#coffeed {
-  background-image: url("images/coffeelink.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#cated {
-  background-position: center;
-  background-size: cover;
-  background-image: url("images/dextercar.png");
-}
-
-#coded {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/dragon.jpg");
-}
-
-
-/* Sidebar */
-.sidebar {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  background-color: grey;
-  color: white;
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  padding-top: 40px;
-  padding-bottom: 80px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.sidebar img {
-  width: 180px;
-  border: 1px solid white;
-}
-
-.box {
-  width: 150px;
-  height: 150px;
-  border: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 10px;
-}
-
-.box a {
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 5%;
-  text-transform: uppercase;
-  font-weight: bold;
-  opacity: 1;
-}
-
-.box a:hover {
-  color: gold;
-  background-color: white;
-}
-
-#coffeelink {
-  background-image: url("images/coffeemex.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#catlink {
-  background-position: center;
-  background-size: cover;
-  background-image: url("images/cataus.jpeg");
-}
-
-#winklink {
-  background-size: cover;
-  background-position: center;
-  background-image: url("images/wings.jpg");
-}
-
-/*blogposts */
-.blogposts {
-  border-left: : 1px solid black;
-  border-right: 1px solid black;
-  background-color: white;
-  width: 80%;
-  padding-top: 10px;
-  text-align: center;
-  overflow: auto;
-}
-
-/* post */
-.post {
-  border-top: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  height: auto;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-  padding-top: 10px;
-}
-
-.photos img{
-  height: 150px;
-  width: auto;
-  border: 1px solid black;
-}
-
-.post a {
-  text-decoration: none;
-}
-
-.post a:hover {
-  font-weight: bold;
-  color: gold;
-  text-decoration: none;
-}
-
-.post p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.date {
-  font-size: 10px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-/* Footer */
-footer {
-  text-align: left;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  color: white;
-  position: relative;
-  margin: 0;
-  height: 50px;
-}
+body{margin:0;background-color:white;}
+h1{font-size:10px;}
+img:hover{opacity:.5;}
+header{display:flex;align-items:center;position:fixed;z-index:1;width:100%;height:55px;border-bottom:3px solid black;background-color:white;font-family:Verdana;font-size:14px;font-weight:bold;opacity:.75;}
+.logo{display:flex;align-items:center;flex-grow:1;padding-left:30px;}
+.logo img{margin-right:12px;height:30px;width:auto;}
+.logo span{color:black;}
+header nav{padding-right:30px;}
+nav a{color:black;background-color:pink;border:1px solid black;padding:3px;margin:3px;text-decoration:none;}
+nav a:hover{color:white;background-color:black;font-weight:bold;}
+.work{margin-left:auto;margin-right:auto;width:90%;display:flex;flex-direction:row;}
+.post img{width:300px;height:auto;border:1px solid black;}
+.opening{text-align:center;background-color:black;padding-top:60px;width:100%;}
+.opencont{display:flex;justify-content:center;align-items:center;align-content:center;}
+#coffeed{background-image:url("images/coffeelink.jpg");background-size:cover;background-position:center;}
+#cated{background-position:center;background-size:cover;background-image:url("images/dextercar.png");}
+#coded{background-size:cover;background-position:center;background-image:url("images/dragon.jpg");}
+.sidebar{border-left:1px solid black;border-right:1px solid black;background-color:grey;color:white;width:20%;display:flex;flex-direction:column;align-items:center;align-content:center;padding-top:40px;padding-bottom:80px;padding-left:20px;padding-right:20px;}
+.sidebar img{width:180px;border:1px solid white;}
+.box{width:150px;height:150px;border:1px solid white;display:flex;justify-content:center;align-items:center;align-content:center;margin:10px;}
+.box a{text-decoration:none;text-align:center;color:white;background-color:black;width:100%;padding:5%;text-transform:uppercase;font-weight:bold;opacity:1;}
+.box a:hover{color:gold;background-color:white;}
+#coffeelink{background-image:url("images/coffeemex.jpg");background-size:cover;background-position:center;}
+#catlink{background-position:center;background-size:cover;background-image:url("images/cataus.jpeg");}
+#winklink{background-size:cover;background-position:center;background-image:url("images/wings.jpg");}
+.blogposts{border-left::1px solid black;border-right:1px solid black;background-color:white;width:80%;padding-top:10px;text-align:center;overflow:auto;}
+.post{border-top:1px solid black;margin-left:auto;margin-right:auto;width:75%;height:auto;background-color:white;margin-top:30px;margin-bottom:30px;text-align:center;padding-top:10px;}
+.photos img{height:150px;width:auto;border:1px solid black;}
+.post a{text-decoration:none;}
+.post a:hover{font-weight:bold;color:gold;text-decoration:none;}
+.post p{margin-top:5px;margin-bottom:5px;}
+.date{font-size:10px;font-weight:bold;font-style:italic;}
+footer{text-align:left;background-color:black;display:flex;align-items:center;color:white;position:relative;margin:0;height:50px;}
